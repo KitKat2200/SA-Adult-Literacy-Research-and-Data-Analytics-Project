@@ -1,0 +1,93 @@
+# Adult Literacy as a Workforce Readiness Indicator
+## A Case Study of San Antonio and Bexar County, Texas
+
+**Project Collaborators:** Kathleen R. Cassell; 
+**Project Stage:** Research Scoping and Data Discovery  
+**Target Research Period:** 2020–2026  
+**Tentative Completion Date:** December 31, 2026  
+
+## Project Overview
+
+This collaborative data analytics project examines available adult literacy evidence alongside demographic, educational, and workforce indicators in San Antonio and Bexar County, Texas.
+
+The study aims to identify patterns that may inform adult education referrals, workforce development planning, and future research. Publicly available data will support interactive dashboards and written analysis, with documented sources, methods, and limitations.
+
+### Primary Research Question
+
+> What does available adult literacy evidence reveal about workforce readiness and educational accessibility in San Antonio and Bexar County, and what opportunities warrant further investigation or targeted support?
+
+## Study Scope
+
+| Dimension | Scope |
+| --- | --- |
+| Geographic coverage | San Antonio and Bexar County, reported separately where possible. Texas and national comparisons will be included where measures are comparable. |
+| Research period | Target period of 2020–2026, subject to availability. Data reference periods and publication dates will be documented separately. |
+| Target population | Adults ages 18–45. Sources using other age ranges will be explicitly labeled and assessed for suitability. |
+| Literacy evidence | Definitions, assessment methods, available measures, reported estimates, and supported comparisons. |
+| Contextual indicators | Educational attainment, income, employment, labor force participation, language spoken at home, and English proficiency. |
+| Education resources | Publicly documented adult literacy, ESL, adult basic education, library, community college, and workforce education programs. |
+| Access considerations | Program locations, eligibility, cost, delivery format, and schedules where documented. |
+| Analytical approach | Descriptive analysis, geographic comparisons, and exploratory association analysis where supported by compatible data. |
+
+### Analytical Boundaries
+
+- Distinguish direct literacy measures from modeled estimates and contextual indicators.
+- Do not treat educational attainment or English proficiency as substitutes for measured literacy.
+- Do not infer individual characteristics from community-level patterns.
+- Do not interpret associations as evidence of causation.
+- Do not treat program proximity alone as proof of accessibility.
+- Do not generate unsupported annual literacy estimates or individual literacy scores.
+
+Interviews, surveys, collection of personal information, and program effectiveness evaluations are outside the initial scope.
+
+## Current Research Status
+
+The project currently has a draft research framework defining its purpose, research questions, candidate variables, source categories, and dashboard themes. Validated findings and a completed analytical dataset have not yet been established.
+
+| Component | Current Status | Next Step |
+| --- | --- | --- |
+| Research questions | Initial questions and objectives drafted | Prioritize questions that are feasible within the project timeline. |
+| Source discovery | Candidate source categories identified | Locate and evaluate specific datasets and publications. |
+| Literacy measurement | Measurement questions identified | Verify definitions, populations, reference years, and estimation methods. |
+| Contextual variables | Candidate demographic and workforce variables listed | Assess availability, geographic detail, and comparability. |
+| Resource inventory | Education program categories identified | Compile and verify provider information. |
+| Data preparation | Pending dataset selection | Acquire, clean, standardize, and document selected data. |
+| Visualization planning | Preliminary dashboard themes drafted | Match visualizations to verified evidence and analytical questions. |
+
+### Data Feasibility Checkpoint
+
+The initial research phase will determine whether available sources support a local literacy trend analysis for 2020–2026.
+
+If comparable observations are unavailable, the study will present an available literacy baseline alongside separately labeled demographic and workforce trends. Changes to the population, research period, or analytical questions will be documented and agreed upon by both collaborators.
+
+## Analytical Roadmap Requirements
+
+The collaborative roadmap will connect each research question to:
+
+- Supporting datasets and required variables.
+- Data preparation and quality checks.
+- Analytical methods and interpretation limits.
+- Proposed charts, maps, and dashboard interactions.
+- A task owner and reviewer.
+- Dependencies, completion criteria, and target dates.
+
+## Planned Deliverables
+
+- Interactive dashboard.
+- Research report.
+- Executive summary.
+- Source inventory.
+- Data dictionary.
+- Documented data preparation and analysis workflow.
+- Adult education resource inventory.
+- Evidence-supported recommendations.
+
+The final dashboard structure and analytical depth will be determined after the data feasibility review.
+
+## Completion Target
+
+**Tentative completion: December 31, 2026.**
+
+The detailed schedule will work backward from this target to establish milestones for data discovery, preparation, analysis, visualization, and final review. Timing remains subject to collaborator availability and data feasibility.
+
+The final package should make the analysis reproducible and clearly distinguish supported findings, limitations, and questions for future research.
