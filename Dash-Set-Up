@@ -14,4 +14,14 @@ Vetting Criteria:
 --Research survey must abide by the following Standards and Ethics of collection as defined by the AAPOR: https://aapor.org/standards-and-ethics/#1667926573628-032a3101-d9a1 **This is with the acknoledgment that there is no curren nationally recognized body of authority over Research Surveys**
 --Resources and surveys must be compiled or collected between the years 2020--2026.
 
+
+Environment Setup:
+--VirtualBox Oracle
+--Linux Mint 21.1
+--Install git; system running git version 2.34.1; 
+--Install docker compose -->sudo apt install docker.io --> Docker version 29.1.3
+
+Superset Installation instructions:
+--https://superset.apache.org/user-docs/quickstart/
+
 **Research and Analysis provided by Kathleen Cassell**
