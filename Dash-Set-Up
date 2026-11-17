@@ -28,6 +28,49 @@ Superset Installation instructions:
     -->docker compose version
     -->**Expected Return:** Docker Compose version v2.40.3
     -->docker info
+    
+**Note:** Docker Compose v2 needed to be installed as a continuation of Step 2. Because I'm configuring this machine as a database and business intelligence laboratory, I'm installing the newer Docker Compose version without consideration for other projects that might depend on the older version.
+
+    -->sudo apt install docker-compose-v2
+    -->docker compose version
+    -->**Expected Return:** Docker Compose version v2.40.3
+    -->docker info
+
+**Note:** Docker Compose v2 was successfully installed, but the Docker daemon returned a permission error. User permissions needed to be configured to allow Docker commands without `sudo`.
+    -->sudo systemctl status docker
+    -->sudo systemctl start docker
+    -->sudo usermod -aG docker "$USER"
+    -->newgrp docker
+    -->docker info
+    -->**Expected Return:** Docker Client and Server information without permission errors.
+
+**Note:** Docker permissions were successfully configured. The VM was initially allocated insufficient resources for Apache Superset. Memory allocation was increased through Oracle VM VirtualBox under Settings → System → Motherboard → Base Memory (8192 MB).
+
+    -->free -h
+    -->**Expected Return:** Approximately 7.8 GiB total memory.
+    -->nproc
+    -->**Expected Return:** Number of allocated virtual processors.
+    -->df -h
+
+**Note:** With Docker Compose v2 operational and VM memory increased, Apache Superset installation can resume from the existing repository directory.
+
+    -->cd ~/superset
+    -->ls docker-compose*.yml
+    -->docker compose -f docker-compose-image-tag.yml up
+    -->**Expected Return:** Docker begins pulling container images, creating containers, and initializing Superset services.
+
+    **Note:** Once the containers have initialized, verify that Apache Superset is operational. Run the following commands in a separate terminal while the Compose process remains active.
+
+     -->cd ~/superset
+     -->docker ps
+     -->docker compose -f docker-compose-image-tag.yml ps
+     -->**Expected Return:** Superset and its required supporting containers are running.
+
+    **Note:** After successful container initialization, access the Apache Superset web interface to validate deployment.
+
+     -->http://localhost:8088
+     -->**Expected Return:** Apache Superset login interface.
+ 
 
 
 **Research and Analysis provided by Kathleen Cassell**
