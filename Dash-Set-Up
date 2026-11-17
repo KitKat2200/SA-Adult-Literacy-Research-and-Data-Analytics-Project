@@ -1,21 +1,21 @@
-**K--Migrating resources and tools over to a Sandbox. I'll be using this txt to track the process and steps for establishing the env in Linux Mint (ubuntu 21.04)**
+**_KC--Migrating resources and tools over to a Sandbox. I'll be using this txt to track the process and steps for establishing the env in Linux Mint (ubuntu 21.04)_**
 
-Visual Dashboard Tool: https://superset.apache.org/user-docs/
+**Visual Dashboard Tool:** https://superset.apache.org/user-docs/
 --Superset is an open-source modern data exploration and data visualization platform. Superset can replace or augment proprietary business intelligence tools for many teams. Superset integrates well with a variety of data sources. **Utilization of this tool in this project is experimental. Processes and steps will be recorded in this document**
 
-National Literacy Rates Resources **Subject to change**:
+**National Literacy Rates Resources** _Subject to change_:
 --https://nrsweb.org/
 --https://www.ed.gov/adult-programs/adult-education-and-literacy-facts-and-figures
 --https://www.thenationalliteracyinstitute.com/literacystatistics
 
-Vetting Criteria:
+**Vetting Criteria:**
 --Resource must be U.S. Based
 --Included resources must be accredited by a national body
 --Research survey must abide by the following Standards and Ethics of collection as defined by the AAPOR: https://aapor.org/standards-and-ethics/#1667926573628-032a3101-d9a1 **This is with the acknoledgment that there is no curren nationally recognized body of authority over Research Surveys**
 --Resources and surveys must be compiled or collected between the years 2020--2026.
 
 
-Environment Setup:
+**Environment Setup:**
 --VirtualBox Oracle
 --Linux Mint 21.1
 --Install git; system running git version 2.34.1; 
@@ -23,5 +23,11 @@ Environment Setup:
 
 Superset Installation instructions:
 --https://superset.apache.org/user-docs/quickstart/
+  **Note:** Docker Compose v2 needed to be installed as a continuation of Step 2. Because I'm configuring this machine as a database and business intelligence laboratory, I'm installing the newer docker version without consideration to other projects that might be dependent on the older version.
+    -->sudo apt install docker-compose-v2
+    -->docker compose version
+    -->**Expected Return:** Docker Compose version v2.40.3
+    -->docker info
+
 
 **Research and Analysis provided by Kathleen Cassell**
